@@ -1,0 +1,62 @@
+#win-wrap {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -500%;
+  padding-left: 0.5em;
+}
+
+#tab-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  color: aliceblue;
+}
+
+#tab-head-wrap {
+  background-color: rgb(3, 135, 250);
+  margin-bottom: 1rem;
+}
+
+.tab-head {
+  width: 70px;
+}
+
+
+.tab-num {
+  width: 70px;
+}
+
+.tab-car {
+  width: 70px;
+}
+
+.tab-name {
+  width: 150px;
+}
+
+.tab-wins {
+  width: 50px;
+}
+
+.tab-tine {
+  width: 70px;
+}
+
+.tab-car svg {
+  width: 40px;
+  height: 40px;
+  margin-top: -13px;
+}
+
+#wins-head-ASC,
+#time-head-ASC,
+#wins-head-DESC,
+#time-head-DESC {
+  cursor: pointer;
+}

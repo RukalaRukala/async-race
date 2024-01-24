@@ -1,0 +1,30 @@
+.button {
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.middle {
+  width: 75px;
+  height: 20px;
+}
+
+.generate {
+  width: 130px;
+}
+
+.form,
+.changer,
+.generate {
+  background-color: rgb(251, 216, 216);
+}
+
+.race-reset {
+  background-color: rgb(172, 251, 181);
+}
+
+.pages {
+  background-color: rgb(247, 96, 139);
+}

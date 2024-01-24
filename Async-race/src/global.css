@@ -1,0 +1,31 @@
+@import './styles/track.css';
+@import './styles/buttons.css';
+@import './styles/carCreatorForm.css';
+@import './styles/winnerBlock.css';
+@import './styles/header.css';
+@import './styles/winMessage.css';
+
+body {
+  position: relative;
+  background-color: rgb(16, 4, 44);
+  width: 98vw;
+  overflow-x: hidden;
+}
+
+#header-wrap {
+  margin-bottom: 20px;
+}
+
+#page-wrap {
+  position: absolute;
+  width: 100%;
+  top: 37vh;
+  display: flex;
+  column-gap: 5px;
+}
+
+#garage {
+  position: absolute;
+  width: 100%;
+  margin-top: 34vh;
+}

@@ -1,0 +1,31 @@
+export interface ITags {
+  garageButton: HTMLButtonElement;
+  winnerButton: HTMLButtonElement;
+  garageFormer: HTMLDivElement;
+  winnerBlock: HTMLDivElement;
+  pagination: HTMLDivElement;
+  garageBlock: HTMLDivElement;
+  create: HTMLButtonElement;
+  update: HTMLButtonElement;
+  createInput: HTMLInputElement;
+  createColor: HTMLInputElement;
+  updateInput: HTMLInputElement;
+  updateColor: HTMLInputElement;
+  generate:HTMLButtonElement;
+  carQuantity: HTMLSpanElement;
+  next: HTMLButtonElement;
+  prev: HTMLButtonElement;
+  pageNumber: HTMLSpanElement;
+  drive: HTMLButtonElement;
+  stop: HTMLButtonElement;
+  race: HTMLButtonElement;
+  reset: HTMLButtonElement;
+  winTab: HTMLDivElement;
+  winQuantity: HTMLDivElement;
+  winPage: HTMLDivElement;
+  winWins: HTMLDivElement;
+  winTime: HTMLDivElement;
+  winNext: HTMLButtonElement;
+  winPrev: HTMLButtonElement;
+  form(): void;
+}
